@@ -9,3 +9,151 @@ body {
   color: #0b1b2d;
   line-height: 1.5;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2463eb;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1748b3;
+}
+
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.navbar {
+  min-height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 134px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  color: #404854;
+  font-size: 14px;
+}
+
+.menu a:hover {
+  color: #2463eb;
+}
+
+.small-button {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.hero {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 7, 16, 0.75), rgba(0, 7, 16, 0.75)),
+    url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  width: 90%;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e1e5eb;
+  font-size: 18px;
+}
+
+.hero-button {
+  margin-top: 40px;
+  min-width: 190px;
+}
+
+.speaker-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.speaker-card {
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.speaker-card img {
+  width: 100%;
+}
+
+.speaker-details {
+  padding: 20px;
+}
+
+.category {
+  color: #2463eb;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.speaker-details h3 {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.speaker-details p:last-child {
+  color: #667085;
+  font-size: 13px;
+}
+
