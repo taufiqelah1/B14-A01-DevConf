@@ -157,3 +157,179 @@ header {
   font-size: 13px;
 }
 
+.pricing {
+  background-color: #f5f7fa;
+}
+
+.pricing h2 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #667085;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.pricing-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.price-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  padding: 28px 24px;
+}
+
+.plan {
+  color: #667085;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.price-card h3 {
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+.per-person {
+  color: #8490a0;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.price-card ul {
+  flex-grow: 1;
+  border-top: 1px solid #dfe5ec;
+  padding: 20px 0 20px 20px;
+}
+
+.price-card li {
+  color: #465364;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.price-card li::marker {
+  color: #2463eb;
+}
+
+.card-button {
+  display: block;
+  color: #2463eb;
+  border: 1px solid #2463eb;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.pro-card {
+  color: white;
+  background-color: #081a2c;
+  border-color: #081a2c;
+}
+
+.pro-card .plan,
+.pro-card .per-person,
+.pro-card li {
+  color: #c9d4df;
+}
+
+.pro-card ul {
+  border-color: #2a3a4d;
+}
+
+.pro-button {
+  color: white;
+  background-color: #2463eb;
+}
+
+.contact-button {
+  color: #0b1b2d;
+  border-color: #0b1b2d;
+}
+
+.quest-section {
+  color: white;
+  background-color: #081a2c;
+}
+
+.quest-section h2 {
+  margin-bottom: 10px;
+}
+
+.quest-label {
+  color: #82aaff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.quest-text {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  color: #c1cbd6;
+  text-align: center;
+}
+
+.quest-cards {
+  display: flex;
+  gap: 18px;
+}
+
+.quest-card {
+  flex: 1;
+  background-color: #102840;
+  border: 1px solid #2a4661;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.number {
+  color: #82aaff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.quest-card h3 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.quest-card p {
+  color: #c1cbd6;
+  font-size: 14px;
+}
+
+.quest-card .reward {
+  color: #82aaff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.quest-bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: #061523;
+  margin-top: 20px;
+  padding: 18px 22px;
+  border-radius: 6px;
+  color: #b8c5d1;
+  font-size: 14px;
+}
+
+.quest-bottom a {
+  color: #82aaff;
+  font-weight: bold;
+}
+
