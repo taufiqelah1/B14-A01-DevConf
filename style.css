@@ -333,3 +333,106 @@ header {
   font-weight: bold;
 }
 
+footer {
+  color: white;
+  background-color: #050f1a;
+  padding: 45px 0 25px;
+}
+
+.footer-top,
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top {
+  padding-bottom: 30px;
+}
+
+.footer-top img {
+  width: 134px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-links a {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #132538;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer hr {
+  border: 0;
+  border-top: 1px solid #243240;
+}
+
+.footer-bottom {
+  color: #8e9bab;
+  font-size: 12px;
+  padding-top: 22px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 12px 0;
+  }
+
+  .menu {
+    width: 100%;
+    order: 3;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 15px;
+  }
+
+  .menu a {
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: 500px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .speaker-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-cards,
+  .quest-cards {
+    flex-direction: column;
+  }
+
+  .quest-bottom,
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
